@@ -1,0 +1,24 @@
+/*Universal Selector*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Type Selector*/
+
+body{
+    background-color: magenta;
+}
+
+/*ID Selector*/ /* Uses the pound sign-# */
+#topHeader{
+    color: white;
+}
+
+/*Class Selector*/ /*Uses the dot symbol-. */
+.topPara{
+    color: yellow;
+    /*Measurements- px, %*/
+    font-size: 40px; /*Petrcentage will take up the space of the container that its in*/
+}
